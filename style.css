@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.water{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(68.15deg, #2f2325 16.62%,#8e5d52 85.61%) ;
+
+}
+
+.começo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    border-bottom: .1px solid #FFF2E7;
+   
+
+}
+
+.image-inicio{
+    height: 72px;
+}
+
+.balle{
+    display: flex;
+    gap:22px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFF2E7;
+    cursor: pointer;
+}
+.x1{
+    text-decoration: none;
+    color:inherit;
+    
+}
+.x1:hover{
+    color:#7FFFD4
+}
+
+x1.x1:active{
+    opacity: .2;
+}
+
+.meio-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+
+.meio-one-text-1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+}
+
+.meio-one-text-2{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #ECD6C4;
+    font-family: 'Sarala', sans-serif;
+    margin: 32px 0 34px 0;
+}
+
+.meio-but{
+    width: 185px;
+    height: 67px;
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #2F2325;
+    cursor:pointer;
+}
+
+.meio-but:hover{
+    background:linear-gradient(70.12deg, #bd7666 ,#2f2325  ) ; 
+    
+
+}
+
+.meio-but:active{
+    opacity: .2;
+}
+
+.meio-twou{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    margin-top: 5.7%;
+    text-align: center;
+}
+
+
+.linha{
+    border-bottom: .4px solid #FFF2E7;    
+    width: 276.04px;
+}
+
+
+.meio-twou-text-1{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    margin-top: 74px;
+}
+
+.gg{
+    margin-top: 31px;
+    margin-bottom: 83px;
+}
+
+.gg-text-twou{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ECD6C4;
+    padding-bottom:26px ;
+}
+
+.fim{
+    border-top:.4px solid #FFF2E7;
+    margin-top: 10px;
+    background: linear-gradient(68.15deg, #2f2325 16.62%,#8e5d52 85.61%) ;
+    padding: 18px;
+} 
+
+.img-fim{
+    position: relative;
+    left: 37%;
+    top:12px;
+
+}
+
